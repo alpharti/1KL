@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 27, 27);
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #3e8e41}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.cool-border {
+  border: 4px solid transparent;
+  border-radius: 12px;
+  background: 
+    linear-gradient(rgb(94, 32, 32), rgb(39, 15, 15)) padding-box,
+    linear-gradient(45deg, #d32525b0, #9b3535) border-box;
+  padding: 20px;
+  width: fit-content;
+  color: #fafafa;
+   text-shadow:
+    0 0 5px #3700ff,
+    0 0 10px #28097e,
+    0 0 20px #4439da,
+    0 0 40px #0077ff;
+  font-family: 'Orbitron', sans-serif;
+}
+.introduction {
+    border: 4px solid transparent;
+    border-radius: 12px;
+    background: 
+       linear-gradient(rgb(94, 32, 32), rgb(39, 15, 15)) padding-box,
+    linear-gradient(45deg, #d32525b0, #9b3535) border-box;
+    padding: 20px;
+    width:fit-content;
+  color: #fafafa;
+   text-shadow:
+    0 0 5px #3700ff,
+    0 0 10px #28097e,
+    0 0 20px #4439da,
+    0 0 40px #0077ff;
+  font-family: 'Orbitron', sans-serif;
+}
+.text-section {
+    border: 4px solid transparent;
+    border-radius: 12px;
+    background: 
+      linear-gradient(rgb(94, 32, 32), rgb(39, 15, 15)) padding-box,
+    linear-gradient(45deg, #d32525b0, #9b3535) border-box;
+    padding: 20px;
+    width: fit-content;
+   color: #fafafa;
+   text-shadow:
+    0 0 5px #3700ff,
+    0 0 10px #28097e,
+    0 0 20px #4439da,
+    0 0 40px #0077ff;
+  font-family: 'Orbitron', sans-serif;
+}
+.text-minisection {
+    border: 4px solid transparent;
+    border-radius: 12px;
+    background: 
+      linear-gradient(rgb(94, 32, 32), rgb(39, 15, 15)) padding-box,
+    linear-gradient(45deg, #d32525b0, #9b3535) border-box;
+    padding: 20px;
+    width: fit-content;
+   color: #fafafa;
+   text-shadow:
+    0 0 5px #3700ff,
+    0 0 10px #28097e,
+    0 0 20px #4439da,
+    0 0 40px #0077ff;
+  font-family: 'Orbitron', sans-serif;
+}
+.game-list table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.game-list th, .game-list td {
+  border-bottom: 1px solid #ff0000;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.game-list th {
+  background-color: #ff0000;
+  color: white;
+  text-transform: uppercase;
+}
+
+.game-list tr:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  transition: 0.3s;
+}
+section {
+  margin: 40px auto;
+  max-width: 900px;
+}
+.cool-border img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff0000;
+}
+footer {
+  text-align: center;
+  color: #ffcccc;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 2px solid #ff0000;
+  text-shadow: 0 0 5px #ff0000;
+}
+.glow-box {
+    border: 4px solid transparent;
+    border-radius: 12px;
+    background: 
+        linear-gradient(rgb(94,32,32), rgb(39,15,15)) padding-box,
+        linear-gradient(45deg, #d32525b0, #9b3535) border-box;
+    padding: 20px;
+    width: fit-content;
+    color: #fafafa;
+    text-shadow:
+        0 0 5px #3700ff,
+        0 0 10px #28097e,
+        0 0 20px #4439da,
+        0 0 40px #0077ff;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+.main-header {
+    background-color: rgb(36, 27, 27);
+    padding: 20px 0;
+    border-bottom: 4px solid #ff0000;
+    box-shadow: 0 0 15px #ff0000;
+    
+}
+/* -------------------------------------------------
+   IMAGE HOVER EFFECT – ENLARGE + GLOW
+   ------------------------------------------------- */
+img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00c3ff, 0 0 40px rgba(68, 0, 255, 0.6);
+    z-index: 10;
+}
+/* End of style.css */
